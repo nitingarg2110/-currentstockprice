@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: currentStockService
+server:
+  port: 8094
+mongoGetUrl: http://localhost:8092/rest
+mongoPatchUrl: http://localhost:8092/rest/UpdateRequest
+iextradingbatchUrl: https://api.iextrading.com/1.0/stock/market/batch
